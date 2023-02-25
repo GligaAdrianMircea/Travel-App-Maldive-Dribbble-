@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(169, 172, 180);
+  box-sizing: border-box;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 929px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 1200px;
+  position: relative;
+}
+.phones {
+  position: relative;
+  height: calc(253px * 2.7);
+  width: calc(117px * 2.8);
+  border-radius: 47.33px;
+  box-shadow: 6px 10px 19px 3px rgba(0, 0, 0, 0.87);
+  background: linear-gradient(to bottom, #ffffff, #24a4e0, #3c15d3);
+}
+#second {
+  position: absolute;
+  bottom: 100px;
+  left: 436.2px;
+}
+
+.notch {
+  background-color: rgb(169, 172, 180);
+  height: 30px;
+  width: 190px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  box-shadow: inset 0px -10px 20px 0px rgba(0, 0, 0, 0.87);
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-bars {
+  font-size: 30px;
+  margin-top: 0.2rem;
+  margin-left: 20px;
+}
+.title {
+  margin-top: 0.6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.account {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-top: 0.2rem;
+  margin-right: 20px;
+  background-color: #ffffff;
+}
+.photo {
+  height: 30px;
+  border-radius: 50%;
+  width: 30px;
+}
+.main {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+#text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 60px;
+  font-size: 60px;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.66);
+  border-radius: 30px;
+  background-image: url(./pexels-asad-photo-maldives-3601421.jpg);
+  background-size: cover;
+  text-shadow: 8px 4px 4px rgba(0, 0, 0, 0.247);
+}
+
+#male {
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.66);
+  height: 150px;
+  width: 300px;
+  border-radius: 30px;
+}
+#plaja {
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.66);
+  margin-top: 15px;
+  height: 55px;
+  width: 300px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.male {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fa-house,
+.fa-magnifying-glass,
+.fa-heart,
+.fa-ticket {
+  font-size: 30px;
+}
+
+.buttons {
+  margin-left: 20px;
+  margin-right: 17px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 55px;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+}
+footer {
+  position: absolute;
+  bottom: 20px;
+}
+.jos {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+.ult {
+  right: 60px;
+}
+.bar {
+  width: 200px;
+  height: 3px;
+  margin-left: 63.8px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+}
+.center {
+  width: calc(117px * 2.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.pre {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}
+.bright {
+  color: rgba(0, 0, 0, 0.452);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+  font-size: 13px;
+}
+.south {
+  margin-left: 25px;
+}
+.est {
+  margin-right: 25px;
+}
+.north {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+  font-size: 16px;
+}
+#main {
+  position: relative;
+  height: 400px;
+  width: 250px;
+  border-radius: 30px;
+  background: url(./pexels-michael-swigunski-6044984.jpg);
+
+  background-size: cover;
+
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.66);
+}
+.presentation {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: rgba(240, 228, 228, 0.979);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#review {
+  margin-left: 10px;
+}
+.fa-star {
+  color: rgba(240, 228, 228, 0.979);
+  font-size: 12px;
+}
+span {
+  color: rgba(255, 255, 255, 0.555);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.price {
+  color: rgba(240, 228, 228, 0.979);
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#dollar {
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 27px;
+}
+#button {
+  position: absolute;
+  color: #fff;
+  height: 40px;
+  width: 130px;
+  background-color: rgb(225, 157, 51);
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 6px 10px 23px -1px rgba(0, 0, 0, 0.73);
+}
+.left {
+  background-image: url(./pexels-asad-photo-maldives-3601421.jpg);
+  background-size: cover;
+  filter: brightness(80%);
+  width: 20px;
+  height: 400px;
+  margin-top: 50px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.right {
+  background-image: url(./pexels-asad-photo-maldives-1483053.jpg);
+  background-size: cover;
+  filter: brightness(80%);
+  width: 20px;
+  height: 400px;
+  margin-top: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#round {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.line {
+  height: 5px;
+  width: 30px;
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
+  background-color: rgb(225, 157, 51);
+}
+#one {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.418);
+}
+.middle {
+  position: relative;
+}
+.ticket {
+  margin-top: 20px;
+  width: 290px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 180px;
+  background-color: azure;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.66);
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+.goes {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.bubled {
+  width: 100px;
+  height: 1px;
+  border: 1px solid black;
+  margin-top: 14px;
+  margin-top: 24px;
+}
+.fa-arrow-right {
+  margin-top: 17px;
+}
+.comes {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+}
+.otp,
+.dxb {
+  height: 30px;
+  width: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  margin-top: 5px;
+}
+.hours {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(0, 0, 0, 0.61);
+  margin-left: 10px;
+  font-size: 13px;
+}
+.dxb {
+  margin-right: 17px;
+}
+.mij {
+  display: flex;
+  justify-content: space-between;
+}
+.pri,
+.dou {
+  background: url(./Screenshot\ 2022-03-07\ 220429.png);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 22px;
+}
+.cut {
+  width: 290px;
+  height: 0.00001px;
+  margin-top: 29px;
+  border: 1px dashed black;
+}
+.pri {
+  margin-left: -2px;
+}
+.dou {
+  margin-right: -2px;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+.stanga {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  background: url(./vhy7phnray4cadccvtti.jpg);
+  margin-top: 10px;
+  background-size: cover;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.sec {
+  background: url(./zokufgzz57zcp2ws2ov7.png);
+  background-size: cover;
+}
+.name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+.fa-utensils {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.fa-suitcase {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 17px;
+}
+.dreapta {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: #e19d33;
+  margin-top: 15px;
+  font-size: 23px;
+  margin-right: 10px;
+}
+.doi {
+  position: relative;
+}
+.trei {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 88px;
+}
